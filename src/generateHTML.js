@@ -51,7 +51,7 @@ const generateTeam = (team) => {
     <div class="card text-white ms-2" style="width: 18rem;">
     <div class="card-body bg-primary" >
       <h3 class="card-title">${intern.name}</h3>
-      <h4><i class="fa-sharp fa-solid fa-user-graduate"></i> Intern</h4> 
+      <h4><i class="fa-solid fa-user-graduate"></i> Intern</h4> 
     </div>
     <ul class="card-body bg-dark p-2 list-group list-group-flush" style="--bs-bg-opacity:.1">
       <li class="list-group-item">ID: ${intern.id}</li>

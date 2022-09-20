@@ -71,7 +71,7 @@ const promptManager = () => {
       }
     },
   ]).then((answers) => {
-    console.log(answers);
+    //console.log(answers);
     const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
     team.push(manager);
     addTeamMember();
@@ -152,7 +152,7 @@ const promptEngineer = () => {
       }
     },
   ]) .then((answers) => {
-    console.log(answers);
+    //console.log(answers);
     const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
     team.push(engineer);
     addTeamMember();
@@ -214,7 +214,7 @@ const promptIntern = () => {
       }
     }
   ]) .then((answers) => {
-    console.log(answers);
+    //console.log(answers);
     const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
     team.push(intern);
     addTeamMember();
@@ -226,7 +226,7 @@ function writeFile() {
     if (err) throw(err);
     console.log("Successfully wrote to index.html")
   } )
-  console.log(team)
+  //console.log(team)
 }
 
 const init = () => {
